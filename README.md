@@ -1,9 +1,9 @@
-# SocialNet
+# MyNet
 
 Developer: Sean Reid
 
-<img src="media/tempmockp4.jpg">
-<a href="https://social-app-p4.herokuapp.com/">Live App</a>
+<img src="">
+<a href="">Live App</a>
 
 
 ## Table of Contents
@@ -36,14 +36,13 @@ Developer: Sean Reid
 ### User Goals
 
 <ul>
-<li>Connect with others on a social media platform</li>
+<li></li>
 </ul>
 
 ### Site Owner Goals
 
 <ul>
-<li>Provide users with a good experience.</li>
-<li>Allow users to communicate online via social media platform.</li>
+<li></li>
 </ul>
 
 ## User Experience
@@ -51,7 +50,7 @@ Developer: Sean Reid
 ### Targeted Audience
 
 <ul>
-<li>Anybody interested in social media</li>
+<li></li>
 </ul>
 
 ### User Requirements and Expectations
@@ -96,7 +95,7 @@ Developer: Sean Reid
 
 ### Flowchart
 <details><summary>Flowchart</summary>
-<img src="media/p4flowchart.jpg">
+<img src="">
 </details>
 
 ### User Manual
@@ -114,7 +113,7 @@ Developer: Sean Reid
 ### Agile Methodologies
 
 <details><summary>Screenshot</summary>
-<img src="media/agilep4.jpg">
+<img src="">
 </details>
 
 ### Data Model
@@ -215,7 +214,7 @@ Developer: Sean Reid
 <img src=""></details>
 
 <details><summary>social.views</summary>
-<img src="media/tempviewspep8valid.jpg"></details>
+<img src=""></details>
 
 <details><summary>social_media.settings.py</summary>
 <img src=""></details>
@@ -224,7 +223,7 @@ Developer: Sean Reid
 <img src=""></details>
 
 <details><summary>social.wsgi.py</summary>
-<img src="g"></details>
+<img src=""></details>
 </ul>
 
 ### Browser Compatibility
@@ -387,16 +386,12 @@ The website was tested on the browsers via:
 
 | **Bugs** | **Fixes** |
 | -------- | --------- |
-| Forbidden (403) error occurs when trying to access the admin panel  | Add 'CSRF_TRUSTED_ORIGINS = ['https://example.io']' code to settings.py file |
+|   |  |
 | Upon deployment in Heroku, the following error is displayed "ERROR: Could not build wheels for backports.zoneinfo" | in requirements.txt replace backports.zoneinfo with backports.zoneinfo;python_version<"3.9" |
 
 
 ## Unfixed Bugs
 <ul>
-<li>Css is not being rendered on the live app properly.</li>
-<li>Using django syntax for favicon returns an error.</li>
-<li>Slug and title fields, or any field with {unique=True} returns [Slugs - Key (slug)=(0) is duplicated"] upon migrate command.</li>
-<li>As project is incomplete there are many errors.</li>
 <li></li>
 </ul>
 
@@ -427,20 +422,18 @@ The website was tested on the browsers via:
 <ul>
 <li>Template used was the Code Institute gitpod full template.</li>
 <li>Template for README file was taken from my third projcet.</li>
-<li>The Code Institute 'I Think Therefore I Blog' Walkthrough was used as a base for this project.</li>
 </ul>
 
 #### Other
 
 <ul>
 <li><a href="https://stackoverflow.com/">Stack Overflow</a> provided help on many queries.</li>
-<li>Many tutorials from <a href="https://Youtube.com/">Youtube</a>helped, particularily<a href="https://www.youtube.com/c/Freecodecamp">FreeCodeCamp.org</a></li>
 </ul>
 
 ## Acknowledgements
 
  <ul>
- <li>This is a resubmission due to missing the deadline date. Due to work, depression and personal issues this project is incomplete. I'd like to thank the Code Institute staff for their continued support and understanding and also extend my apoligies for this performance.</li>
+ <li></li>
  </ul>
 
- [Return To Top](#SocialNet)
+ [Return To Top](#MyNet)
