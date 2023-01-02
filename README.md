@@ -1,108 +1,446 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SocialNet
 
-Welcome seanreid1997,
+Developer: Sean Reid
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img src="media/tempmockp4.jpg">
+<a href="https://social-app-p4.herokuapp.com/">Live App</a>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Targeted Audience](#targeted-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Flowchart](#flowchart)
+    2. [User Manual](#user-manual)
+    3. [Agile Methodologies](#agile-methodologies)
+    4. [Data Models](#data-models)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks and Tools](#frameworks-and-tools)
+    3. [Libraries](#libraries)
+5. [Features](#features)
+6. [Testing](#validation)
+7. [Bugs](#Bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
-`python3 -m http.server`
+## Project Goals
 
-A blue button should appear to click: _Make Public_,
+### User Goals
 
-Another blue button should appear to click: _Open Browser_.
+<ul>
+<li>Connect with others on a social media platform</li>
+</ul>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Site Owner Goals
 
-A blue button should appear to click: _Make Public_,
+<ul>
+<li>Provide users with a good experience.</li>
+<li>Allow users to communicate online via social media platform.</li>
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Targeted Audience
 
-To log into the Heroku toolbelt CLI:
+<ul>
+<li>Anybody interested in social media</li>
+</ul>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Requirements and Expectations
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<ul>
+<li>Login equired</li>
+<li>Program should run without errors</li>
+</ul>
 
-------
+## User Stories
 
-## Release History
+### As A First Time User:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+1. I would like the site be tidy with good naveigation.
+2. I would like to open an account.
+3. I want my posts to have their own unique pages. 
+4. I want to be able to follow other users.
+5. I want to be able to like other posts.
+6. I want to be able to comment on other posts.
+7. I want to be able to view other users posts.
+8. I want to be able to edit my profile information.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### As A Returning User:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+9. I want to be able to login/logout of my account.
+10. I want mhy posts and information to be commited to the database to reduce repitition of data entry.
+11. I want to be to contact the administration team if needed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### As A Site Owner:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+11. 
+12. 
+13. 
+14. 
+15. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Description
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Design
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Flowchart
+<details><summary>Flowchart</summary>
+<img src="media/p4flowchart.jpg">
+</details>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### User Manual
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<details><summary>Overview</summary></details>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### 
+<ul>
+<li>User must register to access their profile.</li>
+<li>Once registered user can login/logout of their account.</li>
+<li></li>
+</ul>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Agile Methodologies
 
-------
+<details><summary>Screenshot</summary>
+<img src="media/agilep4.jpg">
+</details>
 
-## FAQ about the uptime script
+### Data Model
 
-**Why have you added this script?**
+<details><summary></summary></details>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Technologies Used
 
-**How will this affect me?**
+### Languages
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<ul>
+<li>CSS</li>
+<li>Html</li>
+<li>Python</li>
+</ul>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Frameworks and Tools
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<ul>
+<li>Cloudinary</li>
+<li>Diagrams.net - used for flowchart.</li>
+<li>Django</li>
+<li>Git - used for version control within VSCode to push the code to GitHub.</li>
+<li>Github - used as a remote repository to store project code.</li>
+<li>Gitpod - open source developer platform used for project code.</li>
+<li>Google Cloud Platform - used to manage access and permissions to google auth, google sheets, google services, etc.</li>
+<li>Google Sheets API - RESTful interface used read and modify project spreadsheet data.</li>
+<li>Google Sheets - used to store spreadsheet data.</li>
+<li>Heroku - used to deploy project.</li>
+<li>PEP8 - used to validate python code.</li>
+<li>Visual Studio Code - IDE used to write the code for project.</li>
+</ul>
 
-**So….?**
+### Libraries
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Python Libraries
 
-**Can I opt out?**
+<ul>
+<li>os</li>
+<li></li>
+</ul>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### 3rd Party Libraries
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<ul>
+<li>Summernote</li>
+</ul>
 
-**Anything more?**
+## Features
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Home Page
 
----
+<ul>
+<li></li>
+</ul>
 
-Happy coding!
+## Testing
+
+### Validation
+
+<ul>
+
+<li>Html code was tested via The W3C Markup Validation Service.</li>
+
+<details><summary></summary>
+<img src=""></details>
+
+<li>Css code was tested via The W3C CSS Validation Service.</li>
+
+<details><summary></summary>
+<img src=""></details>
+
+<details><summary></summary>
+<img src=""></details>
+
+<li>Accessability was tested via The WAVE Web Accessibility Evaluation Tool.</li>
+
+<details><summary></summary>
+<img src=""></details>
+
+
+<li>Performance code was tested via The Lighthouse Validation Tool.</li>
+
+<details><summary></summary>
+
+<li>Python code was tested via The PEP8 Python Validator.</li>
+<br>
+<details><summary>social.admin.py</summary>
+<img src=""></details>
+
+<details><summary>social.models.py</summary>
+<img src=""></details>
+
+<details><summary>social.tests.py</summary>
+<img src=""></details>
+
+<details><summary>social.urls.py</summary>
+<img src=""></details>
+
+<details><summary>social.views</summary>
+<img src="media/tempviewspep8valid.jpg"></details>
+
+<details><summary>social_media.settings.py</summary>
+<img src=""></details>
+
+<details><summary>social.urls.py</summary>
+<img src=""></details>
+
+<details><summary>social.wsgi.py</summary>
+<img src="g"></details>
+</ul>
+
+### Browser Compatibility
+
+The website was tested on the browsers via:
+<ul>
+<li>Google Chrome</li>
+<li>Microsoft Edge</li>
+<li>Firefox</li>
+</ul>
+
+## User Story Testing
+
+1. I would like the site be tidy with good navigation.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Site should have easy access | Site Navigation | app should operate effeciently  | Works as expected |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+2. I would like to open an account.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+3. I want my posts to have their own unique pages. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+4. I want to be able to follow other users.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+5. I want to be able to like other posts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+6. I want to be able to comment on other posts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+7. I want to be able to view other users posts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+8. I want to be able to edit my profile information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+9. I want to be able to login/logout of my account.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+10. I want mhy posts and information to be commited to the database to reduce repitition of data entry.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+11. I want to be to contact the administration team if needed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+12. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+13. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+14. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+15. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+16. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+## Bugs
+
+
+| **Bugs** | **Fixes** |
+| -------- | --------- |
+| Forbidden (403) error occurs when trying to access the admin panel  | Add 'CSRF_TRUSTED_ORIGINS = ['https://example.io']' code to settings.py file |
+| Upon deployment in Heroku, the following error is displayed "ERROR: Could not build wheels for backports.zoneinfo" | in requirements.txt replace backports.zoneinfo with backports.zoneinfo;python_version<"3.9" |
+
+
+## Unfixed Bugs
+<ul>
+<li>Css is not being rendered on the live app properly.</li>
+<li>Using django syntax for favicon returns an error.</li>
+<li>Slug and title fields, or any field with {unique=True} returns [Slugs - Key (slug)=(0) is duplicated"] upon migrate command.</li>
+<li>As project is incomplete there are many errors.</li>
+<li></li>
+</ul>
+
+## Deployment
+
+<ul>
+<li>Within the terminal of your workspace enter:"pip3 freeze > requirements.txt".</li>
+<li>Create your Procfile and add "web: gunicorn social_media.wsgi".</li>
+<li>Before deploying, in settings.py set Debug=True to Debug=False.</li>
+<li>Add secret keys to env.py and add env.py to .gitignore file.</li>
+<li>Commit and push these changes.</li>
+<li>Go to the Heroku website and login/create an account.</li>
+<li>Click on the create app button and give it a name. </li>
+<li>Select a region and then click on the create app button.</li>
+<li>Locate and select the "Settings" tab.</li>
+<li>Locate the "Config Vars" button.</li>
+<li>Enter the required key and values.</li>
+<li>Return to the top and select the "Deploy" tab.</li>
+<li>Select "Connect to Github" and then search for you repository.</li>
+<li>Next scroll down and select the "Deploy branch" button and wait a few minutes.</li>
+<li>Select view and yoiu will be redirected to your app.</li>
+</ul>
+
+## Credits
+
+### Code Institute
+
+<ul>
+<li>Template used was the Code Institute gitpod full template.</li>
+<li>Template for README file was taken from my third projcet.</li>
+<li>The Code Institute 'I Think Therefore I Blog' Walkthrough was used as a base for this project.</li>
+</ul>
+
+#### Other
+
+<ul>
+<li><a href="https://stackoverflow.com/">Stack Overflow</a> provided help on many queries.</li>
+<li>Many tutorials from <a href="https://Youtube.com/">Youtube</a>helped, particularily<a href="https://www.youtube.com/c/Freecodecamp">FreeCodeCamp.org</a></li>
+</ul>
+
+## Acknowledgements
+
+ <ul>
+ <li>This is a resubmission due to missing the deadline date. Due to work, depression and personal issues this project is incomplete. I'd like to thank the Code Institute staff for their continued support and understanding and also extend my apoligies for this performance.</li>
+ </ul>
+
+ [Return To Top](#SocialNet)
