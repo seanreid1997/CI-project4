@@ -110,9 +110,12 @@ Developer: Sean Reid
 
 #### 
 <ul>
-<li>User must register to access their profile.</li>
-<li>Once registered user can login/logout of their account.</li>
-<li></li>
+<li>User must create an account to access their profile.</li>
+<li>Once registered the user can signin/signout of their account.</li>
+<li>After the user has signed in/ signed out the will be redirected to the feed page.</li>
+<li>While logged in the user will be able to follow the site's navigation.</li>
+<li>At the top of the page will be a search bar to search for users and options to manage their account.</li>
+<li>At the bottom of the page is where the footer is located. Here you will find the links to other social media platforms.</li>
 </ul>
 
 ### Agile Methodologies
