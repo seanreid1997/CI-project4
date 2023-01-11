@@ -36,13 +36,17 @@ Developer: Sean Reid
 ### User Goals
 
 <ul>
-<li></li>
+<li>As</li>
 </ul>
 
 ### Site Owner Goals
 
 <ul>
-<li></li>
+<li>I want users to have a good experience.</li>
+<li>I want users to be able to create a profile.</li>
+<li>I want users to be able to create posts.</li>
+<li>I want users to be able to view, like and comment others posts.</li>
+<li>I want users to be able to signin/signout of their profiles.</li>
 </ul>
 
 ## User Experience
@@ -50,7 +54,7 @@ Developer: Sean Reid
 ### Targeted Audience
 
 <ul>
-<li></li>
+<li>This app is designed for anyone interested in Social Media.</li>
 </ul>
 
 ### User Requirements and Expectations
@@ -64,28 +68,29 @@ Developer: Sean Reid
 
 ### As A First Time User:
 
-1. I would like the site be tidy with good naveigation.
-2. I would like to open an account.
-3. I want my posts to have their own unique pages. 
-4. I want to be able to follow other users.
-5. I want to be able to like other posts.
-6. I want to be able to comment on other posts.
-7. I want to be able to view other users posts.
-8. I want to be able to edit my profile information.
+1. I would like the site be easily navigatable.
+2. I would like to create an account/profile.
+3. I want to be able to edit my profile information.
+4. I want to be able to create and modify my posts. 
+5. I want to be able to follow other users.
+6. I want to be able to like other user's posts.
+7. I want to be able to comment on other posts.
+8. I want to be able to view other users posts.
+9. I want to be able to edit my profile information.
 
 ### As A Returning User:
 
-9. I want to be able to login/logout of my account.
-10. I want mhy posts and information to be commited to the database to reduce repitition of data entry.
-11. I want to be to contact the administration team if needed.
+10. I want to be able to login/logout of my account.
+11. I want my posts and information to be commited to the database to reduce repitition of data entry.
+12. I want to be to able contact the administration team if needed.
 
 ### As A Site Owner:
 
-11. 
-12. 
-13. 
-14. 
-15. 
+13. <li>I want users to have a good experience.</li>
+14. <li>I want users to be able to create a profile.</li>
+15. <li>I want users to be able to create posts.</li>
+16. <li>I want users to be able to view, like and comment others posts.</li>
+17. <li>I want users to be able to signin/signout of their profiles.</li>
 
 ### Description
 
