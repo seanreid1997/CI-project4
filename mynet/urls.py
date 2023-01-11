@@ -22,3 +22,5 @@ urlpatterns = [
     path('summmernote/', include('django_summernote.urls')),
     path('accounts/', include('allauth.urls')),
 ]
+
+handler404 = 'profiles.views.page_not_found'
