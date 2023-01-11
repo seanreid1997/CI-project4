@@ -1,6 +1,11 @@
 from django.contrib import admin
-from .models import Post, Comment
+from .models import Post, Comment, Profile
 from django_summernote.admin import SummernoteModelAdmin
+
+
+@admin.register(Profile)
+class ProfileAdmin(admin.ModelAdmin):
+    list_filter = ('bio',)
 
 
 @admin.register(Post)

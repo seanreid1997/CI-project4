@@ -3,6 +3,16 @@
 {% block content %}
 
 
-<h1>Add post</h1>
+<form action="upload" method="POST" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <p> Upload pics
+    </p>
+    <div>
+        <input type="file" name="add_image">
+        <textarea name="caption" placeholder="..." ></textarea>
+        <br>
+        <button type="submit" >Add</button>
+    </div>
+    </form>
 
 {%endblock%}

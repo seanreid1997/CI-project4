@@ -1,24 +1,24 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from .models import Post
 from .forms import CommentForm
 
 
 class PostList(generic.ListView):
+
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
     paginate_by = 6
-
-
-class AddPost(generic.CreateView):
-    model = Post
-    template_name = "add_post.html"
-    fields = ['__all__']
     
-    def create():
-        return HttpResponse(add_post.html)
+    def feed():
+        user_object = User.objects.get(username=request.user.username)
+        user_profile = Profile.objects.get(user=user_object)
+
+
+def add_post():
+    return HttpResponse('<h1>Add Post</h1>')
 
 
 class PostDetail(View):
