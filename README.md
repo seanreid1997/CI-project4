@@ -394,7 +394,6 @@ The website was tested on the browsers via:
 
 | **Bugs** | **Fixes** |
 | -------- | --------- |
-|   |  |
 | Upon deployment in Heroku, the following error is displayed "ERROR: Could not build wheels for backports.zoneinfo" | in requirements.txt replace backports.zoneinfo with backports.zoneinfo;python_version<"3.9" |
 
 
@@ -402,6 +401,7 @@ The website was tested on the browsers via:
 <ul>
 <li>Couldn't get the add post feature to work properly.</li>
 <li>Program is incomplete.</li>
+<li>Css not rendering on deployed page properly.</li>
 </ul>
 
 ## Deployment
