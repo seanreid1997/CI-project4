@@ -2,8 +2,8 @@
 
 Developer: Sean Reid
 
-<img src="">
-<a href="">Live App</a>
+<img src="media/images/p4mocktemp.jpg">
+<a href="https://ci-p4.herokuapp.com/">Live App</a>
 
 
 ## Table of Contents
@@ -36,7 +36,7 @@ Developer: Sean Reid
 ### User Goals
 
 <ul>
-<li>As</li>
+<li>To have a positive experience while using a social media platform.</li>
 </ul>
 
 ### Site Owner Goals
@@ -60,7 +60,7 @@ Developer: Sean Reid
 ### User Requirements and Expectations
 
 <ul>
-<li>Login equired</li>
+<li>Login required</li>
 <li>Program should run without errors</li>
 </ul>
 
@@ -400,7 +400,8 @@ The website was tested on the browsers via:
 
 ## Unfixed Bugs
 <ul>
-<li></li>
+<li>Couldn't get the add post feature to work properly.</li>
+<li>Program is incomplete.</li>
 </ul>
 
 ## Deployment
@@ -441,7 +442,14 @@ The website was tested on the browsers via:
 ## Acknowledgements
 
  <ul>
- <li></li>
+ <li>I'd like to thank the Code Institute staff for the continued support and not removing me from the course depsite the late submissions and resubmissions.</li>
+ <li>I'd also like to apologies for any inconvenience but as long as I can I will continue to resubmit until I get a pass. I'm willing to keep paying for it as long as I get my diploma. Programming is my dream but work has got me stressed and pressed for time.</li>
+ </ul>
+
+ ### Side Note
+
+ <ul>
+ <li>Project is incomplete. Every time I do a resubmission or a late submission I always create a new project rather than continue on the failed one. I now realise that was a mistake.</li>
  </ul>
 
  [Return To Top](#MyNet)
