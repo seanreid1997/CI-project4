@@ -431,19 +431,22 @@ The website was tested on the browsers via:
 <ul>
 <li>Template used was the Code Institute gitpod full template.</li>
 <li>Template for README file was taken from my third projcet.</li>
+<li>Code Institute 'I Think Before I Blog' walkthrough was used as a template for this project.</li>
+<li>I used code from my previous p4 submission.</li>
 </ul>
 
 #### Other
 
 <ul>
 <li><a href="https://stackoverflow.com/">Stack Overflow</a> provided help on many queries.</li>
+<li><a href="https://youtube.com/">Stack Overflow</a> also provided help on many queries.</li>
 </ul>
 
 ## Acknowledgements
 
  <ul>
  <li>I'd like to thank the Code Institute staff for the continued support and not removing me from the course depsite the late submissions and resubmissions.</li>
- <li>I'd also like to apologies for any inconvenience but as long as I can I will continue to resubmit until I get a pass. I'm willing to keep paying for it as long as I get my diploma. Programming is my dream but work has got me stressed and pressed for time.</li>
+ <li>I'd also like to apologies for any inconvenience but as long as I can I will continue to resubmit until I get a pass. I'm willing to keep paying for it as long as I get my diploma. Programming is my dream but work has got me stressed and pressed for time which is partially why I want to change careers.</li>
  </ul>
 
  ### Side Note
