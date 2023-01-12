@@ -121,7 +121,7 @@ Developer: Sean Reid
 ### Agile Methodologies
 
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="media/images/p4agile.jpg">
 </details>
 
 ### Data Model
